@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiments | DS LAB</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="experiments" data-theme="experiments">
+  <header id="app-header"></header>
+  <main class="container page">
+    <section class="page-hero">
+      <div><h1>Experiments</h1><p>Record programs, outputs, videos and sub-experiments for every lab session.</p></div>
+      <button class="btn btn-white" id="addBtn" type="button">+ Add Experiment</button>
+    </section>
+    <div class="toolbar">
+      <div class="search-box"><span id="searchIcon"></span><input type="search" id="searchInput" placeholder="Search number, topic, subject, module, language" aria-label="Search experiments"></div>
+      <select id="filterType" aria-label="Filter experiments"></select>
+      <select id="filterLanguage" aria-label="Filter by language"></select>
+      <select id="sortBy" aria-label="Sort experiments">
+        <option value="numAsc">Experiment No. ascending</option>
+        <option value="numDesc">Experiment No. descending</option>
+        <option value="newest">Newest</option>
+        <option value="oldest">Oldest</option>
+        <option value="nameAsc">Name A-Z</option>
+        <option value="nameDesc">Name Z-A</option>
+      </select>
+    </div>
+    <div class="result-count" id="resultCount"></div>
+    <div class="grid" id="grid"></div>
+  </main>
+  <footer id="app-footer"></footer>
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/experiments.js"></script>
+</body>
+</html>

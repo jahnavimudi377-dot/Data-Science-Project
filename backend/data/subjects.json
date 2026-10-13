@@ -1,0 +1,55 @@
+[
+  {
+    "id": "f07f1d3d-b1ca-4e83-b016-00d2f0851e47",
+    "name": "DATA SCIENCE",
+    "code": "22DS102006",
+    "semester": 5,
+    "description": "Data Science is an interdisciplinary field that combines statistics, mathematics, programming, and domain knowledge to extract meaningful insights from data. It involves collecting, cleaning, analyzing, visualizing, and interpreting data to identify patterns and support data-driven decision-making.\r\n\r\nThis introduction provides an overview of the Data Science lifecycle, including data collection, preprocessing, exploratory data analysis, visualization, and basic predictive modeling. It also introduces commonly used tools and technologies such as Python, NumPy, Pandas, Matplotlib, and Scikit-learn.",
+    "coverImage": "/uploads/subjects/1791424809846-e2768bca-ds.png",
+    "pdf": "",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "moduleName": "Introduction",
+        "pdf": "/uploads/modules/1791424887530-35beba97-DSModules.pdf",
+        "videos": [],
+        "videoUrl": "",
+        "importantQuestions": []
+      },
+      {
+        "moduleNumber": 2,
+        "moduleName": "",
+        "pdf": "",
+        "videos": [],
+        "videoUrl": "",
+        "importantQuestions": []
+      },
+      {
+        "moduleNumber": 3,
+        "moduleName": "",
+        "pdf": "",
+        "videos": [],
+        "videoUrl": "",
+        "importantQuestions": []
+      },
+      {
+        "moduleNumber": 4,
+        "moduleName": "",
+        "pdf": "",
+        "videos": [],
+        "videoUrl": "",
+        "importantQuestions": []
+      },
+      {
+        "moduleNumber": 5,
+        "moduleName": "",
+        "pdf": "",
+        "videos": [],
+        "videoUrl": "",
+        "importantQuestions": []
+      }
+    ],
+    "createdAt": "2026-10-08T02:00:10.205Z",
+    "updatedAt": "2026-10-08T02:01:48.269Z"
+  }
+]

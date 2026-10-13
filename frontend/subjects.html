@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modules | DS LAB</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="subjects" data-theme="subjects">
+  <header id="app-header"></header>
+  <main class="container page">
+    <section class="page-hero">
+      <div><h1>Modules</h1><p>Add modules and upload PDFs, videos and important questions.</p></div>
+      <div class="btn-row"><button class="btn btn-white" id="addBtn" type="button">+ Add Module</button><button class="btn btn-outline-white" id="addSubjectBtn" type="button">+ Add Subject</button></div>
+    </section>
+    <div class="toolbar">
+      <div class="search-box"><span id="searchIcon"></span><input type="search" id="searchInput" placeholder="Search by subject name or code" aria-label="Search subjects"></div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </main>
+  <footer id="app-footer"></footer>
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/subjects.js"></script>
+</body>
+</html>

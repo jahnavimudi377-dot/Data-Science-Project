@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources | DS LAB</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="resources" data-theme="resources">
+  <header id="app-header"></header>
+  <main class="container page">
+    <section class="page-hero">
+      <div><h1>Resources</h1><p>Reference links, documentation and study material.</p></div>
+      <button class="btn btn-white" id="addBtn" type="button">+ Add Resource</button>
+    </section>
+    <div class="toolbar">
+      <div class="search-box"><span id="searchIcon"></span><input type="search" id="searchInput" placeholder="Search by name, category or tag" aria-label="Search"></div>
+      <select id="categoryFilter" aria-label="Filter by category"><option value="">All categories</option></select>
+    </div>
+    <div class="grid" id="grid"></div>
+  </main>
+  <footer id="app-footer"></footer>
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/resources.js"></script>
+</body>
+</html>
